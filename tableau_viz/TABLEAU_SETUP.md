@@ -87,7 +87,7 @@ To **switch the heatmap from revenue to customer-count encoding**, replace `[Cal
 ## 6) Tableau Public: Full build (heatmap + trend + filters)
 
 Use **data/rfm_scores.csv** and **data/full_ecom.csv** from this repo. Paths below assume your project is at  
-`.../Project-Three` (e.g. `C:/Users/.../New folder (2)/Project-Three`).
+`.../Project-2` (e.g. `C:/Users/.../New folder (2)/Project-2`).
 
 ### Step 1 – New workbook and save as TWBX
 
@@ -168,7 +168,7 @@ Use **data/rfm_scores.csv** and **data/full_ecom.csv** from this repo. Paths bel
 
 ### Step 9 – Publish and export for GitHub
 
-1. **File → Save to Tableau Public** → name (e.g. "Project-Three RFM"). After publish, use **Share → Embed** for your README if needed.
+1. **File → Save to Tableau Public** → name (e.g. "Project-2 RFM"). After publish, use **Share → Embed** for your README if needed.
 2. **File → Export Packaged Workbook** (or **Save As** and choose .twbx) → save as **`tableau_viz/Ecom_RFM_Dashboard.twbx`** so the packaged workbook in the repo uses the correct data.
 
 ### Tableau Public notes
@@ -185,12 +185,12 @@ The existing **Ecom_RFM_Dashboard.twb** references:
 - `.../Project-Three-main/output/rfm_segments.csv`
 - `.../Project-Three-main/data/synthetic_ecommerce_sales_2025.csv`
 
-This repo is **Project-Three** (no `-main`). So either:
+This repo is **Project-2** (no `-main`). So either:
 
 1. **Reconnect in Tableau:**  
    Open the workbook → Data → [each connection] → replace file path with:  
-   - `.../Project-Three/tableau_viz/../output/rfm_segments.csv`  
-   - or `.../Project-Three/data/full_ecom.csv` (if you switch to full_ecom),  
+   - `.../Project-2/tableau_viz/../output/rfm_segments.csv`  
+   - or `.../Project-2/data/full_ecom.csv` (if you switch to full_ecom),  
    using the actual path to **this** repo on your machine, or  
 
 2. **Start from the tutorial** with **Save As → Ecom_RFM_Dashboard.twbx** in **`tableau_viz/`**, connect to **data/rfm_scores.csv** and **data/full_ecom.csv** from this repo, then build the heatmap + KPIs + trend + filters as described in Section 6 above.
