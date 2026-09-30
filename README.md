@@ -1,4 +1,4 @@
-# Project Three: 2025 E-com RFM Analysis (SQL + Tableau)
+# Project 2: 2025 E-com RFM Analysis (SQL + Tableau)
 
 ![SQL](https://img.shields.io/badge/SQL-SQLite-blue) ![Tableau](https://img.shields.io/badge/Tableau-Public-orange)
 
@@ -10,7 +10,7 @@ Analyzed 100k synthetic sales with SQLite CTEs → RFM segments → Interactive 
 
 ## Tech Stack
 - **SQL (DBeaver/SQLite):** RFM modeling with window functions and CTEs.
-- **Tableau Public:** Heatmap + funnels — [view dashboard](https://public.tableau.com/app/profile/jimmyhomes12/viz/Project-Three-RFM/RFMHeatmap).
+- **Tableau Public:** Heatmap + funnels — [view dashboard](https://public.tableau.com/app/profile/jimmyhomes12/viz/Project-2-RFM/RFMHeatmap).
 
 ## RFM Revenue Heatmap (SQL + Tableau)
 
@@ -39,13 +39,13 @@ This dashboard segments 2025 e‑commerce customers into RFM buckets (Recency, F
 
 Interactive RFM heatmap published to Tableau Public — axes: **R-Score** (rows) × **F-Score** (columns), colour intensity = **SUM(total_revenue)** (`[Calculation_RevenueColor]`), with an **M-Score** parameter filter to drill into any monetary tier.
 
-[![RFM Heatmap preview](https://public.tableau.com/static/images/Pr/Project-Three-RFM/RFMHeatmap/1_rss.png)](https://public.tableau.com/app/profile/jimmyhomes12/viz/Project-Three-RFM/RFMHeatmap)
+[![RFM Heatmap preview](https://public.tableau.com/static/images/Pr/Project-2-RFM/RFMHeatmap/1_rss.png)](https://public.tableau.com/app/profile/jimmyhomes12/viz/Project-2-RFM/RFMHeatmap)
 
 > **Embed this viz in your own HTML page** — copy the iframe below:
 
 ```html
 <iframe
-  src="https://public.tableau.com/views/Project-Three-RFM/RFMHeatmap?:embed=y&:showVizHome=no&:display_count=yes"
+  src="https://public.tableau.com/views/Project-2-RFM/RFMHeatmap?:embed=y&:showVizHome=no&:display_count=yes"
   width="100%"
   height="600"
   frameborder="0"
